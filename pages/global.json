@@ -1,0 +1,23 @@
+{ 
+  "name": "Turbo 360",
+  "logo": "https://lh3.googleusercontent.com/90S7s_3EMyHbmIs25cPSO5mVj9GnmLfzUPWzGhhQ61uceXESbkSsvXoPsM7kEaTlFpKCOlYkCz4Cppke_82gduCFpB8=s120",
+  "navlist": [{"text": "Docs"}, {"text": "Tutorial"}, {"text": "Blog"}, {"text": "Community"}],
+  "sidebar": [
+    {
+      "menu": "Installation",
+      "submenu": [{"text": "Getting Started"}, {"text": "Create a new site"}, {"text": " Create a new page"}]
+    },
+    {
+      "menu": "Main Concepts",
+      "submenu": [{"text": "Getting Started"}, {"text": "Create a new site"}, {"text": " Create a new page"}]
+    },
+    {
+      "menu": "Advanced Guides",
+      "submenu": [{"text": "Getting Started"}, {"text": "Create a new site"}, {"text": " Create a new page"}]
+    },
+    {
+      "menu": "FAQ",
+      "submenu": [{"text": "Getting Started"}, {"text": "Create a new site"}, {"text": " Create a new page"}]
+    }
+  ]
+}

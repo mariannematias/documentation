@@ -1,0 +1,80 @@
+a {
+    transition: all .3s ease;
+}
+a:hover {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+section {
+    overflow: hidden;
+}
+
+html, body, .container, .row.content {
+    height: 100%;
+}
+body {
+    color: #282c34;
+}
+.skin-blue {
+    background-color: #69cce0;
+}
+.navbar-brand {
+    margin-right: 8rem;
+}
+.navbar .nav-item {
+    color: #fff;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    font-size: 1.1rem;
+}
+.full-height {
+    height: 100%;
+}
+
+/** Right sidebar **/
+.right-content {
+    background-color: #414755;
+    padding: 4rem 3rem 0;
+}
+.right-content .menu li a {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #fff;
+    display: block;
+}
+.right-content .menu li a:hover {
+    opacity: .8;
+}
+.right-content ul.menu li a i {
+    padding-left: .5rem;
+}
+.right-content .submenu {
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+.right-content .submenu li a {
+    text-transform: initial;
+    font-weight: 400;
+    margin-bottom: .4rem;
+    opacity: .8;
+}
+.right-content .submenu li a:hover {
+    opacity: .6;
+}
+
+/** Sections **/
+.left-content .container {
+    width: 90%;
+    margin: auto;
+    padding-top: 5rem;
+}
+.section-title {
+    font-size: 3.54rem;
+    line-height: 4rem;
+    font-weight: 700;
+}

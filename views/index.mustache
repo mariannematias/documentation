@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+	{{>head}}
+
+	<body>
+		{{>header}}
+
+		<div class="container-fluid">
+			<div class="row content">
+				<div class="col-md-9 col-sm-12 left-content">
+					<div class="container">
+						<h1 class="section-title">Getting Started</h1>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-12 right-content full-height">
+					<ul class="menu">
+						{{#global.sidebar}}
+							<li>
+								<a href="#">{{menu}} <i class="fas fa-angle-down"></i></a>
+								<ul class="submenu">
+									{{#submenu}}
+										<li><a href="#">{{text}}</a></li>
+									{{/submenu}}
+								</ul>
+							</li>
+						{{/global.sidebar}}
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	<script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+	</body>
+</html>
